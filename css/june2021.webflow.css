@@ -753,8 +753,18 @@
 }
 
 .project-desc2.cs-body3 {
-  margin-top: 1vh;
+  margin-top: 1.5vh;
   margin-bottom: 1.5vh;
+}
+
+.project-desc2.cs-body4 {
+  margin-top: 2vh;
+  margin-bottom: 0vh;
+}
+
+.project-desc2.cs-body5 {
+  margin-top: 3vh;
+  margin-bottom: 1vh;
 }
 
 .div-block-21 {
@@ -1431,7 +1441,7 @@
 }
 
 .list {
-  margin-top: 2vh;
+  margin-top: 2.5vh;
   margin-bottom: 0px;
   padding-left: 2.5vw;
   list-style-type: disc;
@@ -1467,8 +1477,8 @@
 }
 
 .image-t2.zoom {
-  margin-top: 0vh;
-  margin-bottom: 1.5vh;
+  margin-top: 1vh;
+  margin-bottom: 0vh;
 }
 
 .background-video-5 {
@@ -1480,7 +1490,7 @@
 .list-2 {
   margin-top: 1.5vh;
   margin-bottom: 1.5vh;
-  margin-left: 1vw;
+  margin-left: 0.5vw;
   padding-left: 1vw;
   list-style-type: square;
 }
@@ -1735,6 +1745,7 @@
 
   .text-block-7.black.testimonial-content {
     width: 81vw;
+    font-size: 1.75vw;
   }
 
   .text-block-7.black.testimonial-content.contact-detail {
@@ -1761,13 +1772,14 @@
   }
 
   .project-desc2 {
-    font-size: 1.85vw;
+    font-size: 1.75vw;
     letter-spacing: -0.0925vw;
   }
 
   .project-desc2.awards {
     margin-top: 1vh;
     margin-bottom: 1vh;
+    font-size: 1.75vw;
   }
 
   .project-desc2.testimonial.caps {
@@ -1777,6 +1789,10 @@
   .project-desc2.testimonial-2.caps.contact-link {
     margin-top: 0.5vh;
     margin-bottom: 1vh;
+  }
+
+  .project-desc2.cs-body {
+    font-size: 1.75vw;
   }
 
   .project-line {
@@ -1943,6 +1959,10 @@
     align-items: flex-end;
   }
 
+  .contact-div {
+    width: 40vw;
+  }
+
   .div-block-33 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2026,6 +2046,10 @@
 
   .background-video-5 {
     height: 22vh;
+  }
+
+  .div-block-40 {
+    width: 38vw;
   }
 }
 
@@ -2186,6 +2210,14 @@
     font-size: 3.75vw;
   }
 
+  .project-desc2.cs-body4 {
+    font-size: 3.75vw;
+  }
+
+  .project-desc2.cs-body5 {
+    font-size: 3.75vw;
+  }
+
   .div-block-22 {
     margin-top: 5vh;
   }
@@ -2334,7 +2366,7 @@
   }
 
   .contact-div {
-    width: 89.5vw;
+    width: 100%;
     margin-left: 0vw;
   }
 
@@ -2424,10 +2456,19 @@
 
   .list {
     padding-left: 7vw;
+    line-height: 1.1;
   }
 
   .background-video-5 {
     height: 25vh;
+  }
+
+  .list-2 {
+    padding-left: 2vw;
+  }
+
+  .div-block-40 {
+    width: 100%;
   }
 }
 
