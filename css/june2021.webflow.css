@@ -1465,12 +1465,20 @@
   list-style-type: disc;
 }
 
+.list.no-top {
+  margin-top: 0vh;
+}
+
 .list-item {
   margin-bottom: 0.5vh;
 }
 
 .list-item.extra-content {
   margin-top: 2vh;
+}
+
+.list-item.insane-deals {
+  margin-bottom: 3vh;
 }
 
 .text-span-5 {
