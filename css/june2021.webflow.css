@@ -1124,6 +1124,7 @@
 }
 
 .contact.stamurai {
+  padding-bottom: 13.85vh;
   background-color: #f0e9e1;
 }
 
@@ -1158,6 +1159,10 @@
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
+}
+
+.cs-wrapper {
+  width: 88.39vw;
 }
 
 .cursor-wrapper {
@@ -1966,6 +1971,10 @@
     padding-bottom: 110vh;
   }
 
+  .contact.stamurai {
+    padding-bottom: 10vh;
+  }
+
   .social-div {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -2094,8 +2103,18 @@
     letter-spacing: -0.1875vw;
   }
 
+  .menu-item.data1:hover {
+    font-style: normal;
+    letter-spacing: -0.1875vw;
+  }
+
   .menu-item.data2 {
     font-size: 3.75vw;
+    letter-spacing: -0.1875vw;
+  }
+
+  .menu-item.data2:hover {
+    font-style: normal;
     letter-spacing: -0.1875vw;
   }
 
@@ -2374,6 +2393,10 @@
 
   .contact {
     padding: 2.5vh 5.25vw 107.5vh;
+  }
+
+  .contact.stamurai {
+    padding-bottom: 107.5vh;
   }
 
   .social-div {
