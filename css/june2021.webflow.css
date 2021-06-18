@@ -629,6 +629,10 @@
   text-transform: uppercase;
 }
 
+.project-desc.feedback-from {
+  margin-top: 2vh;
+}
+
 .div-block-20 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -699,6 +703,11 @@
 }
 
 .project-desc2.testimonial-2.caps.contact-link.no-hover:hover {
+  font-style: normal;
+  letter-spacing: -0.04vw;
+}
+
+.project-desc2.testimonial-2.caps.testimonial-from.no-hover:hover {
   font-style: normal;
   letter-spacing: -0.04vw;
 }
@@ -1540,6 +1549,11 @@
     letter-spacing: 0.05vw;
   }
 
+  .project-desc2.testimonial-2.caps.testimonial-from:hover {
+    font-style: normal;
+    letter-spacing: -0.04vw;
+  }
+
   .project-desc2.view-cs-2.caps {
     -webkit-transition: text-indent 200ms ease, letter-spacing 200ms ease;
     transition: text-indent 200ms ease, letter-spacing 200ms ease;
@@ -1787,6 +1801,11 @@
   }
 
   .project-desc2.testimonial-2.caps.contact-link {
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
+  }
+
+  .project-desc2.testimonial-2.caps.testimonial-from {
     margin-top: 0.5vh;
     margin-bottom: 1vh;
   }
@@ -2185,6 +2204,10 @@
   }
 
   .project-desc2.testimonial-2.caps.contact-link {
+    font-size: 3.75vw;
+  }
+
+  .project-desc2.testimonial-2.caps.testimonial-from {
     font-size: 3.75vw;
   }
 
