@@ -1058,6 +1058,10 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 10vh;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .f-cs {
@@ -1507,6 +1511,10 @@
   margin-left: 0.5vw;
   padding-left: 1vw;
   list-style-type: square;
+}
+
+.link-block-3 {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1920px) {
