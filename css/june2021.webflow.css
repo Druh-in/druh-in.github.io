@@ -1141,6 +1141,10 @@
   background-color: #f5f5f5;
 }
 
+.contact.fathom {
+  background-color: #e7e1f0;
+}
+
 .social-div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1292,6 +1296,10 @@
   background-color: #f5f5f5;
 }
 
+.cs-page.fathom {
+  background-color: #e7e1f0;
+}
+
 .next-cs {
   position: relative;
   width: 100vw;
@@ -1302,6 +1310,10 @@
 
 .next-cs.insanedeals {
   background-color: #f5f5f5;
+}
+
+.next-cs.fathom {
+  background-color: #e7e1f0;
 }
 
 .div-block-36 {
@@ -1475,6 +1487,12 @@
   margin-top: 2.5vh;
 }
 
+.image.brandathon {
+  height: 20vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .list {
   margin-top: 2.5vh;
   margin-bottom: 0px;
@@ -1561,6 +1579,25 @@
 
 .background-video-6.top-padding {
   margin-top: 2vh;
+}
+
+.link {
+  display: block;
+  margin-bottom: 0.5vh;
+  color: #131313;
+  text-decoration: none;
+}
+
+.link-2 {
+  display: block;
+}
+
+.link-3 {
+  display: block;
+}
+
+.link-block-4 {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1920px) {
