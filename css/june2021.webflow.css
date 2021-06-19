@@ -750,6 +750,10 @@
   margin-bottom: 2vh;
 }
 
+.project-desc2.cs-body.list-body.end-list {
+  margin-bottom: 0vh;
+}
+
 .project-desc2.cs-body.list-inner-body {
   margin-top: 1vh;
   margin-bottom: 1vh;
@@ -1494,6 +1498,14 @@
   margin-bottom: 3vh;
 }
 
+.list-item.insane-deals.end-list {
+  margin-bottom: 2.5vh;
+}
+
+.list-item.insane-deals.end-list-2 {
+  margin-bottom: 0vh;
+}
+
 .text-span-5 {
   font-style: italic;
 }
@@ -1540,6 +1552,15 @@
 
 .text-block-8 {
   display: none;
+}
+
+.background-video-6 {
+  z-index: 10;
+  height: 70vh;
+}
+
+.background-video-6.top-padding {
+  margin-top: 2vh;
 }
 
 @media screen and (min-width: 1920px) {
@@ -2115,6 +2136,10 @@
 
   .div-block-40 {
     width: 38vw;
+  }
+
+  .background-video-6 {
+    height: 45vh;
   }
 }
 
