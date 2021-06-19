@@ -2372,12 +2372,20 @@
     margin-bottom: 4vh;
   }
 
+  .hr3.black.testimonial.cs {
+    margin-bottom: 0vh;
+  }
+
   .hr4.black {
     width: 100%;
   }
 
   .hr4.black.awards {
     width: 89.5vw;
+  }
+
+  .hr4.black.testimonial.cs {
+    margin-top: 1.5vh;
   }
 
   .hr4.black.cs-links {
@@ -2527,6 +2535,7 @@
 
   .div-block-38 {
     position: static;
+    width: 100%;
     margin-top: 10vh;
   }
 
@@ -2581,6 +2590,10 @@
 
   .div-block-40 {
     width: 100%;
+  }
+
+  .background-video-6.top-padding {
+    height: 50vh;
   }
 }
 
