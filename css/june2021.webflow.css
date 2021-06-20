@@ -769,6 +769,11 @@
   margin-top: 2vh;
 }
 
+.project-desc2.cs-body2.link {
+  margin-bottom: 0vh;
+  line-height: 1.2;
+}
+
 .project-desc2.cs-body3 {
   margin-top: 1.5vh;
   margin-bottom: 1.5vh;
@@ -1499,6 +1504,10 @@
   opacity: 0.6;
 }
 
+.title-contents.end-list {
+  margin-bottom: 0vh;
+}
+
 .image {
   margin-top: 2.5vh;
 }
@@ -1654,6 +1663,17 @@
 .background-video-5-copy.no-top {
   margin-top: 0vh;
   margin-bottom: 1vh;
+}
+
+.link-4 {
+  color: #131313;
+  text-decoration: none;
+}
+
+.link-5 {
+  border-bottom: 1px solid #131313;
+  color: #131313;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1920px) {
