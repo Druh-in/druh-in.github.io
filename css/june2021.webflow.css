@@ -1149,6 +1149,10 @@
   background-color: #e6e6e6;
 }
 
+.contact.mausumi {
+  background-color: #fcf0ff;
+}
+
 .social-div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1304,6 +1308,10 @@
   background-color: #e6e6e6;
 }
 
+.cs-page.mausumi {
+  background-color: #fcf0ff;
+}
+
 .next-cs {
   position: relative;
   width: 100vw;
@@ -1318,6 +1326,10 @@
 
 .next-cs.fathom {
   background-color: #e6e6e6;
+}
+
+.next-cs.mausumi {
+  background-color: #fcf0ff;
 }
 
 .div-block-36 {
@@ -1491,6 +1503,10 @@
   margin-top: 2.5vh;
 }
 
+.image.zoom.no-top {
+  margin-top: 0vh;
+}
+
 .image.brandathon {
   height: 20vh;
   -o-object-fit: cover;
@@ -1564,6 +1580,11 @@
   margin-top: 1.5vh;
 }
 
+.background-video-5.no-top {
+  margin-top: 0vh;
+  margin-bottom: 1vh;
+}
+
 .list-2 {
   margin-top: 1.5vh;
   margin-bottom: 1.5vh;
@@ -1622,6 +1643,17 @@
 
 .text-span-11 {
   border-bottom: 1px solid #131313;
+}
+
+.background-video-5-copy {
+  z-index: 10;
+  height: 35vh;
+  margin-top: 1vh;
+}
+
+.background-video-5-copy.no-top {
+  margin-top: 0vh;
+  margin-bottom: 1vh;
 }
 
 @media screen and (min-width: 1920px) {
@@ -2214,6 +2246,10 @@
   .background-video-6 {
     height: 45vh;
   }
+
+  .background-video-5-copy {
+    height: 22vh;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2677,6 +2713,10 @@
 
   .background-video-6.top-padding {
     height: 50vh;
+  }
+
+  .background-video-5-copy {
+    height: 25vh;
   }
 }
 
