@@ -1142,7 +1142,7 @@
 }
 
 .contact.fathom {
-  background-color: #e7e1f0;
+  background-color: #e6e6e6;
 }
 
 .social-div {
@@ -1297,7 +1297,7 @@
 }
 
 .cs-page.fathom {
-  background-color: #e7e1f0;
+  background-color: #e6e6e6;
 }
 
 .next-cs {
@@ -1313,7 +1313,7 @@
 }
 
 .next-cs.fathom {
-  background-color: #e7e1f0;
+  background-color: #e6e6e6;
 }
 
 .div-block-36 {
@@ -1505,7 +1505,7 @@
 }
 
 .list-item {
-  margin-bottom: 0.5vh;
+  margin-bottom: 0.65vh;
 }
 
 .list-item.extra-content {
@@ -1521,6 +1521,10 @@
 }
 
 .list-item.insane-deals.end-list-2 {
+  margin-bottom: 0vh;
+}
+
+.list-item.end-list {
   margin-bottom: 0vh;
 }
 
@@ -1598,6 +1602,18 @@
 
 .link-block-4 {
   text-decoration: none;
+}
+
+.text-span-9 {
+  border-bottom: 1px solid #131313;
+}
+
+.text-span-10 {
+  border-bottom: 1px solid #131313;
+}
+
+.text-span-11 {
+  border-bottom: 1px solid #131313;
 }
 
 @media screen and (min-width: 1920px) {
@@ -1854,7 +1870,7 @@
   }
 
   .text-block-7.black.testimonial-content {
-    width: 81vw;
+    width: 38vw;
     font-size: 1.75vw;
   }
 
@@ -1975,6 +1991,10 @@
     width: 38vw;
   }
 
+  .hr4.black.testimonial.cs {
+    margin-top: 1.5vh;
+  }
+
   .hr4.black.cs-links {
     width: 38vw;
   }
@@ -2021,40 +2041,44 @@
 
   .div-block-31 {
     margin-top: 6.5vh;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .f-cs {
-    width: 81vw;
+    width: 38vw;
   }
 
   .div-block-32 {
-    width: 81vw;
-    height: 37.5vh;
+    width: 38vw;
+    height: 20vh;
   }
 
   .background-video-2 {
-    width: 81vw;
-    height: 37.5vh;
+    width: 38vw;
+    height: 20vh;
   }
 
   .overlay-f-cs.color {
-    width: 81vw;
-    height: 37.5vh;
+    width: 38vw;
+    height: 20vh;
   }
 
   .f-cs-2 {
-    width: 81vw;
-    margin-left: 0vw;
+    width: 38vw;
+    margin-left: 5vw;
   }
 
   .background-video-3 {
-    width: 81vw;
-    height: 37.5vh;
+    width: 38vw;
+    height: 20vh;
   }
 
   .contact {
@@ -2165,6 +2189,10 @@
   .title-contents.testimonial-2.caps.contact-link {
     margin-top: 0.5vh;
     margin-bottom: 1vh;
+  }
+
+  .list-item {
+    margin-bottom: 0.5vh;
   }
 
   .background-video-5 {
@@ -2610,6 +2638,10 @@
 
   .title-contents.fcs-name {
     font-size: 3.75vw;
+  }
+
+  .image.zoom {
+    margin-top: 2vh;
   }
 
   .list {
