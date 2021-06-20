@@ -1583,6 +1583,10 @@
   margin-bottom: 0vh;
 }
 
+.image-t2.zoom.last {
+  margin-top: 1.65vh;
+}
+
 .background-video-5 {
   z-index: 10;
   height: 35vh;
@@ -2721,6 +2725,14 @@
 
   .background-video-5 {
     height: 25vh;
+  }
+
+  .background-video-5.no-top.mausumi {
+    height: 28vh;
+  }
+
+  .background-video-5.mausumi {
+    height: 28vh;
   }
 
   .list-2 {
