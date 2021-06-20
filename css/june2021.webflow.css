@@ -761,6 +761,10 @@
   line-height: 1.1;
 }
 
+.project-desc2.cs-body.list-inner-body.end-list {
+  margin-bottom: 0vh;
+}
+
 .project-desc2.cs-body2 {
   margin-top: 2vh;
 }
@@ -1566,6 +1570,10 @@
   margin-left: 0.5vw;
   padding-left: 1vw;
   list-style-type: square;
+}
+
+.list-2.end-list {
+  margin-bottom: 0vh;
 }
 
 .link-block-3 {
@@ -2496,6 +2504,11 @@
 
   .div-block-31 {
     margin-top: 5vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .f-cs {
@@ -2519,6 +2532,7 @@
 
   .f-cs-2 {
     width: 89.5vw;
+    margin-left: 0vw;
   }
 
   .background-video-3 {
