@@ -1166,6 +1166,10 @@
   background-color: #fff4f1;
 }
 
+.contact.keralaonroad {
+  background-color: #edf2ff;
+}
+
 .social-div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1329,6 +1333,10 @@
   background-color: #fff4f1;
 }
 
+.cs-page.keralaonroad {
+  background-color: #edf2ff;
+}
+
 .next-cs {
   position: relative;
   width: 100vw;
@@ -1351,6 +1359,10 @@
 
 .next-cs.buzzoms {
   background-color: #fff4f1;
+}
+
+.next-cs.keralaonroad {
+  background-color: #edf2ff;
 }
 
 .div-block-36 {
@@ -1635,7 +1647,7 @@
 }
 
 .text-block-8 {
-  display: none;
+  display: block;
 }
 
 .background-video-6 {
