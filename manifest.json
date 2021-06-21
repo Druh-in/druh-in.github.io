@@ -1,0 +1,50 @@
+{
+	"dir": "ltr",
+	"lang": "en",
+	"name": "Portfolio '21",
+	"short_name": "Druhin",
+	"scope": "/",
+	"display": "fullscreen",
+	"start_url": "https://druh.in/",
+	"background_color": "#ededed",
+  	"theme_color": "#101010",
+	"description": "UX Designer specializing in Visual Design making interfaces more human, effective, and easy to use.",
+	"orientation": "portrait",
+	"related_applications": [],
+	"categories": ["design", "coding", "ux", "portfolio"],
+	"prefer_related_applications": false,
+	"icons": [
+		{
+			"src": "https://uploads-ssl.webflow.com/609358f814171f792638bc3c/609413e013af074f6e4d7602_icon32.png",
+			"type": "image/png",
+			"sizes": "32x32"
+      },
+		{
+			"src": "https://uploads-ssl.webflow.com/609358f814171f792638bc3c/609413e6c05f4dfa2bbc0e3d_icon256.png",
+			"type": "image/png",
+			"sizes": "256x256"
+      },
+		{
+			"src": "https://uploads-ssl.webflow.com/609358f814171f792638bc3c/609e9d0132fac034bcda865a_maskable_icon_x1.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any maskable"
+    }
+    ],
+	"shortcuts": [
+    {
+      "name": "Selected Works",
+      "short_name": "Works",
+      "description": "Check the Case studies of some of Druhin's selected works.",
+      "url": "https://druh.in/work",
+      "icons": [{ "src": "https://uploads-ssl.webflow.com/609358f814171f792638bc3c/609e9fb8a443c43cb06d6a87_works.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Feel free to reach out to me via email if you have a project in mind, or maybe just say 'hi'. I don't mind making new friends.",
+      "url": "https://druh.in/contact",
+      "icons": [{ "src": "https://uploads-ssl.webflow.com/609358f814171f792638bc3c/609ea0846014f609b521873a_contact.png", "sizes": "192x192" }]
+    }
+  ]
+}
