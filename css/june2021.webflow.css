@@ -774,6 +774,10 @@
   line-height: 1.2;
 }
 
+.project-desc2.cs-body2.list-head {
+  margin-top: 3vh;
+}
+
 .project-desc2.cs-body3 {
   margin-top: 1.5vh;
   margin-bottom: 1.5vh;
@@ -1315,6 +1319,10 @@
 
 .cs-page.mausumi {
   background-color: #fcf0ff;
+}
+
+.cs-page.buzzoms {
+  background-color: #fff8f0;
 }
 
 .next-cs {
