@@ -1162,6 +1162,10 @@
   background-color: #fcf0ff;
 }
 
+.contact.buzzoms {
+  background-color: #fff4f1;
+}
+
 .social-div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1322,7 +1326,7 @@
 }
 
 .cs-page.buzzoms {
-  background-color: #fff8f0;
+  background-color: #fff4f1;
 }
 
 .next-cs {
@@ -1343,6 +1347,10 @@
 
 .next-cs.mausumi {
   background-color: #fcf0ff;
+}
+
+.next-cs.buzzoms {
+  background-color: #fff4f1;
 }
 
 .div-block-36 {
@@ -1563,6 +1571,10 @@
 
 .list-item.end-list {
   margin-bottom: 0vh;
+}
+
+.list-item.buzzoms {
+  margin-bottom: 1.5vh;
 }
 
 .text-span-5 {
