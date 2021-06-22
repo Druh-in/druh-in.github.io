@@ -2272,6 +2272,50 @@
     flex-direction: column;
   }
 
+  .cursor-wrapper {
+    display: none;
+  }
+
+  .img-container {
+    display: none;
+  }
+
+  .stamurai-cs {
+    display: none;
+  }
+
+  .cs-overlay.color {
+    display: none;
+  }
+
+  .cs-hover-bg {
+    display: none;
+  }
+
+  .cs-hover-video {
+    display: none;
+  }
+
+  .insanedeals-cs {
+    display: none;
+  }
+
+  .fathom-cs {
+    display: none;
+  }
+
+  .mausumi-cs {
+    display: none;
+  }
+
+  .buzzoms-cs {
+    display: none;
+  }
+
+  .kerala-cs {
+    display: none;
+  }
+
   .cs-page {
     padding-top: 10vh;
     padding-bottom: 10vh;
