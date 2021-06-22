@@ -299,6 +299,13 @@
   letter-spacing: -0.054vw;
 }
 
+.text-block-2.black.cs-hover-text {
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+  padding-top: 1.9vh;
+  padding-bottom: 1.9vh;
+}
+
 .text-block-2.portfolio-heading {
   margin-bottom: 0vh;
 }
@@ -502,8 +509,9 @@
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   color: #ededed;
-  font-size: 1.11vw;
-  letter-spacing: -0.055vw;
+  font-size: 1vw;
+  line-height: 1.15;
+  letter-spacing: -0.04vw;
 }
 
 .text-block-7.black {
@@ -533,8 +541,9 @@
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   color: #ededed;
-  font-size: 1.12vw;
-  letter-spacing: -0.055vw;
+  font-size: 1vw;
+  line-height: 1.15;
+  letter-spacing: -0.045vw;
 }
 
 .div-block-15 {
@@ -558,9 +567,10 @@
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   color: #ededed;
-  font-size: 1.12vw;
+  font-size: 1vw;
+  line-height: 1.15;
   text-align: right;
-  letter-spacing: -0.055vw;
+  letter-spacing: -0.04vw;
 }
 
 .scroll-down {
@@ -624,7 +634,7 @@
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   color: #131313;
-  font-size: 1.12vw;
+  font-size: 1.1vw;
   letter-spacing: -0.055vw;
   text-transform: uppercase;
 }
@@ -654,6 +664,7 @@
   flex: 0 0 auto;
   color: #131313;
   font-size: 1vw;
+  line-height: 1.1;
   letter-spacing: -0.04vw;
 }
 
@@ -1747,8 +1758,6 @@
 
   .text-block-7 {
     width: 44.85vw;
-    font-size: 1.12vw;
-    letter-spacing: -0.055vw;
   }
 
   .project-desc2.testimonial-2.caps {
@@ -1915,7 +1924,8 @@
   }
 
   .menu-item.data1:hover {
-    letter-spacing: 0.25vw;
+    font-style: normal;
+    letter-spacing: -0.0875vw;
   }
 
   .menu-item.data2 {
@@ -1924,7 +1934,8 @@
   }
 
   .menu-item.data2:hover {
-    letter-spacing: 0vw;
+    font-style: normal;
+    letter-spacing: -0.0875vw;
   }
 
   .menu-bar {
@@ -1954,6 +1965,11 @@
     letter-spacing: 0.085vw;
   }
 
+  .text-block-2.black.cs-hover-text {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+  }
+
   .text-block-2.portfolio-heading {
     font-size: 2.25vw;
     letter-spacing: -0.1125vw;
@@ -1966,12 +1982,14 @@
   .text-block-7 {
     width: 60vw;
     font-size: 1.85vw;
+    line-height: 1.1;
     letter-spacing: -0.0925vw;
   }
 
   .text-block-7.black.testimonial-content {
     width: 38vw;
     font-size: 1.75vw;
+    letter-spacing: -0.07vw;
   }
 
   .text-block-7.black.testimonial-content.contact-detail {
@@ -1988,6 +2006,7 @@
   .one-liner {
     width: 30vw;
     font-size: 1.85vw;
+    line-height: 1.1;
     letter-spacing: -0.0925vw;
   }
 
@@ -1999,6 +2018,7 @@
 
   .project-desc2 {
     font-size: 1.75vw;
+    line-height: 1.05;
     letter-spacing: -0.0925vw;
   }
 
@@ -2031,11 +2051,13 @@
   }
 
   .project-timeline.black {
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
     font-size: 2.25vw;
   }
 
   .div-block-25 {
-    width: 35vw;
+    width: 42vw;
   }
 
   .div-block-26 {
@@ -2043,6 +2065,8 @@
   }
 
   .project-type.black {
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
     font-size: 2.25vw;
   }
 
@@ -2118,16 +2142,16 @@
   }
 
   .div-block-30 {
-    margin-left: 0vw;
+    margin-left: 5vw;
   }
 
   .testimonial-div-2 {
     margin-top: 0vh;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -2326,6 +2350,10 @@
   .background-video-5-copy {
     height: 22vh;
   }
+
+  .div-block-41 {
+    width: 38vw;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2395,6 +2423,20 @@
 
   .text-block-2.black.section-index {
     font-size: 3.75vw;
+    letter-spacing: -0.1875vw;
+  }
+
+  .text-block-2.black.other-works:hover {
+    letter-spacing: -0.1875vw;
+  }
+
+  .text-block-2.black.cs-hover-text {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+
+  .text-block-2.black.cs-hover-text:hover {
+    font-style: normal;
     letter-spacing: -0.1875vw;
   }
 
@@ -2471,6 +2513,10 @@
 
   .project-desc2.testimonial-2.caps.contact-link {
     font-size: 3.75vw;
+  }
+
+  .project-desc2.testimonial-2.caps.contact-link.no-hover:hover {
+    letter-spacing: -0.15vw;
   }
 
   .project-desc2.testimonial-2.caps.testimonial-from {
@@ -2817,6 +2863,10 @@
 
   .background-video-5-copy {
     height: 25vh;
+  }
+
+  .div-block-41 {
+    width: 100%;
   }
 }
 
