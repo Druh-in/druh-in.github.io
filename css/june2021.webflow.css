@@ -1662,7 +1662,8 @@
 }
 
 .text-block-8 {
-  display: none;
+  display: block;
+  opacity: 0;
 }
 
 .background-video-6 {
