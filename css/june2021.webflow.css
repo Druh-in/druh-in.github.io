@@ -1155,18 +1155,22 @@
 }
 
 .contact.fathom {
+  padding-bottom: 13.85vh;
   background-color: #e6e6e6;
 }
 
 .contact.mausumi {
+  padding-bottom: 13.85vh;
   background-color: #fcf0ff;
 }
 
 .contact.buzzoms {
+  padding-bottom: 13.85vh;
   background-color: #fff4f1;
 }
 
 .contact.keralaonroad {
+  padding-bottom: 13.85vh;
   background-color: #edf2ff;
 }
 
@@ -2190,6 +2194,22 @@
     padding-bottom: 10vh;
   }
 
+  .contact.fathom {
+    padding-bottom: 10vh;
+  }
+
+  .contact.mausumi {
+    padding-bottom: 10vh;
+  }
+
+  .contact.buzzoms {
+    padding-bottom: 10vh;
+  }
+
+  .contact.keralaonroad {
+    padding-bottom: 10vh;
+  }
+
   .social-div {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -2641,6 +2661,22 @@
   }
 
   .contact.insanedeals {
+    padding-bottom: 107.5vh;
+  }
+
+  .contact.fathom {
+    padding-bottom: 107.5vh;
+  }
+
+  .contact.mausumi {
+    padding-bottom: 107.5vh;
+  }
+
+  .contact.buzzoms {
+    padding-bottom: 107.5vh;
+  }
+
+  .contact.keralaonroad {
     padding-bottom: 107.5vh;
   }
 
