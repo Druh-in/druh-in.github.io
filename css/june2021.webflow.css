@@ -643,6 +643,13 @@
   margin-top: 2vh;
 }
 
+.project-desc.end {
+  margin-bottom: 0vh;
+  opacity: 0.7;
+  font-size: 1vw;
+  letter-spacing: -0.05vw;
+}
+
 .div-block-20 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1031,7 +1038,7 @@
 }
 
 .awards-recognitions.work-page {
-  padding-bottom: 113.85vh;
+  padding-bottom: 100vh;
 }
 
 .testimonial-div {
@@ -1159,38 +1166,42 @@
 .contact {
   position: relative;
   width: 100vw;
-  padding: 6.925vh 2.6vw 113.85vh;
+  padding: 6.925vh 2.6vw 100vh;
   background-color: #ededed;
 }
 
 .contact.stamurai {
-  padding-bottom: 13.85vh;
+  padding-bottom: 0vh;
   background-color: #f0e9e1;
 }
 
 .contact.insanedeals {
-  padding-bottom: 13.85vh;
+  padding-bottom: 0vh;
   background-color: #f5f5f5;
 }
 
 .contact.fathom {
-  padding-bottom: 13.85vh;
+  padding-bottom: 0vh;
   background-color: #e6e6e6;
 }
 
 .contact.mausumi {
-  padding-bottom: 13.85vh;
+  padding-bottom: 0vh;
   background-color: #fcf0ff;
 }
 
 .contact.buzzoms {
-  padding-bottom: 13.85vh;
+  padding-bottom: 0vh;
   background-color: #fff4f1;
 }
 
 .contact.keralaonroad {
-  padding-bottom: 13.85vh;
+  padding-bottom: 0vh;
   background-color: #edf2ff;
+}
+
+.contact.contact-page {
+  padding-top: 13.85vh;
 }
 
 .social-div {
@@ -1736,6 +1747,24 @@
   text-decoration: none;
 }
 
+.footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 88.39vw;
+  margin-top: 13.5vh;
+  padding-bottom: 5vh;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 1920px) {
   .text-block.black {
     -webkit-box-flex: 0;
@@ -2025,6 +2054,11 @@
     letter-spacing: -0.0875vw;
   }
 
+  .project-desc.end {
+    font-size: 1.5vw;
+    letter-spacing: -0.075vw;
+  }
+
   .project-desc2 {
     font-size: 1.75vw;
     line-height: 1.05;
@@ -2151,7 +2185,7 @@
   }
 
   .awards-recognitions.work-page {
-    padding-bottom: 110vh;
+    padding-bottom: 100vh;
   }
 
   .div-block-30 {
@@ -2220,31 +2254,35 @@
 
   .contact {
     padding-top: 5vh;
-    padding-bottom: 110vh;
+    padding-bottom: 100vh;
   }
 
   .contact.stamurai {
-    padding-bottom: 10vh;
+    padding-bottom: 0vh;
   }
 
   .contact.insanedeals {
-    padding-bottom: 10vh;
+    padding-bottom: 0vh;
   }
 
   .contact.fathom {
-    padding-bottom: 10vh;
+    padding-bottom: 0vh;
   }
 
   .contact.mausumi {
-    padding-bottom: 10vh;
+    padding-bottom: 0vh;
   }
 
   .contact.buzzoms {
-    padding-bottom: 10vh;
+    padding-bottom: 0vh;
   }
 
   .contact.keralaonroad {
-    padding-bottom: 10vh;
+    padding-bottom: 0vh;
+  }
+
+  .contact.contact-page {
+    padding-top: 10vh;
   }
 
   .social-div {
@@ -2411,6 +2449,12 @@
   .div-block-41 {
     width: 38vw;
   }
+
+  .footer {
+    width: 100%;
+    margin-top: 10vh;
+    padding-bottom: 3vh;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2553,6 +2597,16 @@
   .project-desc {
     font-size: 3vw;
     letter-spacing: -0.15vw;
+  }
+
+  .project-desc.end {
+    display: none;
+    font-size: 3vw;
+    letter-spacing: -0.15vw;
+  }
+
+  .project-desc.end.copyright {
+    display: block;
   }
 
   .project-desc2 {
@@ -2710,7 +2764,7 @@
   }
 
   .awards-recognitions.work-page {
-    padding-bottom: 107.5vh;
+    padding-bottom: 100vh;
   }
 
   .testimonial-div {
@@ -2760,31 +2814,35 @@
   }
 
   .contact {
-    padding: 2.5vh 5.25vw 107.5vh;
+    padding: 2.5vh 5.25vw 100vh;
   }
 
   .contact.stamurai {
-    padding-bottom: 107.5vh;
+    padding-bottom: 100vh;
   }
 
   .contact.insanedeals {
-    padding-bottom: 107.5vh;
+    padding-bottom: 100vh;
   }
 
   .contact.fathom {
-    padding-bottom: 107.5vh;
+    padding-bottom: 100vh;
   }
 
   .contact.mausumi {
-    padding-bottom: 107.5vh;
+    padding-bottom: 100vh;
   }
 
   .contact.buzzoms {
-    padding-bottom: 107.5vh;
+    padding-bottom: 100vh;
   }
 
   .contact.keralaonroad {
-    padding-bottom: 107.5vh;
+    padding-bottom: 100vh;
+  }
+
+  .contact.contact-page {
+    padding-top: 10vh;
   }
 
   .social-div {
@@ -2928,6 +2986,15 @@
 
   .div-block-41 {
     width: 100%;
+  }
+
+  .footer {
+    margin-top: 7.5vh;
+    padding-bottom: 3.5vh;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 
