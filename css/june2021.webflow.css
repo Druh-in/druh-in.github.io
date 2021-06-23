@@ -1438,6 +1438,10 @@
   position: sticky;
   top: 13vh;
   width: 10vw;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
 }
 
 .cs-desc-title {
@@ -1770,6 +1774,15 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.link-block-5 {
+  text-decoration: none;
+}
+
+.link-block-6 {
+  display: block;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1920px) {
