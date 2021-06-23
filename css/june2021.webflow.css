@@ -715,6 +715,13 @@
   text-transform: uppercase;
 }
 
+.project-desc2.testimonial-2.caps.contact-link {
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+}
+
 .project-desc2.testimonial-2.caps.contact-link:hover {
   font-style: italic;
   letter-spacing: 0.05vw;
