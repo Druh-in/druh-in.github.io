@@ -1019,11 +1019,19 @@
   background-color: #ededed;
 }
 
+.featured-cs.contact-page {
+  display: none;
+}
+
 .awards-recognitions {
   position: relative;
   width: 100vw;
   padding: 13.85vh 2.6vw;
   background-color: #ededed;
+}
+
+.awards-recognitions.work-page {
+  padding-bottom: 113.85vh;
 }
 
 .testimonial-div {
@@ -2142,6 +2150,10 @@
     padding-bottom: 10vh;
   }
 
+  .awards-recognitions.work-page {
+    padding-bottom: 110vh;
+  }
+
   .div-block-30 {
     margin-left: 5vw;
   }
@@ -2695,6 +2707,10 @@
 
   .awards-recognitions {
     padding: 2.5vh 5.25vw 7.5vh;
+  }
+
+  .awards-recognitions.work-page {
+    padding-bottom: 107.5vh;
   }
 
   .testimonial-div {
