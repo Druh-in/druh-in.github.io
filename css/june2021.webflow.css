@@ -2083,8 +2083,14 @@
   }
 
   .project-desc2.testimonial-2.caps.contact-link {
-    margin-top: 0.5vh;
-    margin-bottom: 1vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+
+  .project-desc2.testimonial-2.caps.contact-link.no-hover:hover {
+    letter-spacing: -0.0925vw;
   }
 
   .project-desc2.testimonial-2.caps.testimonial-from {
