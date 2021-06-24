@@ -1826,10 +1826,7 @@
   right: 0%;
   bottom: 0%;
   z-index: 1000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100%;
   height: 100vh;
   padding: 5.5vh 2.6vw 4.65vh;
@@ -2274,9 +2271,6 @@
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
     font-size: 7vw;
     white-space: nowrap;
   }
@@ -2287,9 +2281,6 @@
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
     font-size: 7vw;
     white-space: nowrap;
   }
@@ -2805,6 +2796,7 @@
   }
 
   .third-line {
+    overflow: hidden;
     width: 20vw;
     height: 100%;
     margin-right: 10vw;
@@ -2823,6 +2815,7 @@
   }
 
   .second-line {
+    overflow: hidden;
     width: 20vw;
     height: 100%;
     margin-right: 0vw;
@@ -2833,6 +2826,11 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .div-block-44 {
+    width: 14vw;
+    height: 18vh;
   }
 
   .first-line {
@@ -2877,6 +2875,42 @@
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+  }
+
+  .div-block-49 {
+    width: 14vw;
+    height: 18vh;
+  }
+
+  .div-block-50 {
+    width: 18vw;
+    height: 12vh;
+    margin-bottom: 3vh;
+  }
+
+  .div-block-51 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    height: 7vw;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
   }
 }
 
@@ -3499,6 +3533,26 @@
     width: 80vw;
     height: auto;
     margin: 5vh 4.75vw 0vh;
+  }
+
+  .div-block-51 {
+    height: 11vw;
+    margin-top: -16vh;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-align-content: flex-end;
+    -ms-flex-line-pack: end;
+    align-content: flex-end;
+  }
+
+  .div-block-51._2nd {
+    margin-top: 12vh;
   }
 }
 
