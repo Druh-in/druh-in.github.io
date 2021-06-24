@@ -314,6 +314,11 @@
   display: none;
 }
 
+.text-block-2.portfolio-heading.loader-text {
+  display: block;
+  width: 100%;
+}
+
 .div-block-6 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -525,6 +530,10 @@
   letter-spacing: -0.05vw;
 }
 
+.text-block-7.black.testimonial-content.contact-detail {
+  width: 26vw;
+}
+
 .div-block-14 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -725,6 +734,10 @@
 .project-desc2.testimonial-2.caps.contact-link:hover {
   font-style: italic;
   letter-spacing: 0.05vw;
+}
+
+.project-desc2.testimonial-2.caps.contact-link.no-hover {
+  padding-top: 1vh;
 }
 
 .project-desc2.testimonial-2.caps.contact-link.no-hover:hover {
@@ -1002,6 +1015,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 26vw;
+  text-decoration: none;
 }
 
 .awards-div {
@@ -1229,6 +1243,7 @@
 }
 
 .contact-div {
+  display: none;
   width: 42.825vw;
   margin-left: 2.75vw;
 }
@@ -1759,6 +1774,7 @@
 }
 
 .footer {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1783,6 +1799,56 @@
 .link-block-6 {
   display: block;
   text-decoration: none;
+}
+
+.page-transition {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1000;
+  display: none;
+  width: 100%;
+  height: 100vh;
+  padding-top: 5.5vh;
+  padding-right: 2.6vw;
+  padding-left: 2.6vw;
+  background-color: #1b1b1b;
+}
+
+.div-block-42 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.contact-link-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.social-links {
+  display: none;
 }
 
 @media screen and (min-width: 1920px) {
@@ -2102,6 +2168,10 @@
     padding-bottom: 1vh;
   }
 
+  .project-desc2.testimonial-2.caps.contact-link.no-hover {
+    padding-top: 0.5vh;
+  }
+
   .project-desc2.testimonial-2.caps.contact-link.no-hover:hover {
     letter-spacing: -0.0925vw;
   }
@@ -2156,6 +2226,10 @@
   }
 
   .hr3.black.awards.extra2 {
+    display: none;
+  }
+
+  .hr3.black.awards.no-need {
     display: none;
   }
 
@@ -2481,6 +2555,10 @@
     margin-top: 10vh;
     padding-bottom: 3vh;
   }
+
+  .page-transition {
+    padding-top: 5vh;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2652,6 +2730,10 @@
     font-size: 3.75vw;
   }
 
+  .project-desc2.testimonial-2.caps.contact-link.no-hover {
+    padding-top: 0.75vh;
+  }
+
   .project-desc2.testimonial-2.caps.contact-link.no-hover:hover {
     letter-spacing: -0.15vw;
   }
@@ -2797,6 +2879,18 @@
     margin-top: 6vh;
   }
 
+  .div-block-30 {
+    margin-left: 0vw;
+  }
+
+  .testimonial-div-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
   .testimonials {
     padding: 2.5vh 5.25vw 7.5vh;
   }
@@ -2884,6 +2978,7 @@
   }
 
   .contact-div {
+    display: block;
     width: 100%;
     margin-left: 0vw;
   }
@@ -3021,6 +3116,29 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  .page-transition {
+    padding-right: 5.25vw;
+    padding-left: 5.25vw;
+  }
+
+  .contact-link-div {
+    display: none;
+    margin-top: 5vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .social-links {
+    display: block;
   }
 }
 
