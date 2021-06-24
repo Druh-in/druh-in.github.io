@@ -1889,7 +1889,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-right: 5.3vw;
-  margin-bottom: 11vh;
+  margin-bottom: 14vh;
   margin-left: 5.3vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1938,7 +1938,7 @@
   display: flex;
   width: 65.8vw;
   margin-right: 7.8vw;
-  margin-bottom: 4.65vh;
+  margin-bottom: 3.5vh;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -1970,7 +1970,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-right: 7.8vw;
-  margin-bottom: 4.65vh;
+  margin-bottom: 3.5vh;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -2010,6 +2010,30 @@
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
+}
+
+.load-img {
+  width: 7.8vw;
+  height: 23vh;
+  margin-right: 2.6vw;
+}
+
+.load-img2 {
+  width: 15.625vw;
+  height: 13vh;
+  margin-right: 2.6vw;
+}
+
+.div-block-46 {
+  overflow: hidden;
+}
+
+.div-block-47 {
+  overflow: hidden;
+}
+
+.div-block-48 {
+  overflow: hidden;
 }
 
 @media screen and (min-width: 1920px) {
