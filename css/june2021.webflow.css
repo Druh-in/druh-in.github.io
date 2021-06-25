@@ -2977,7 +2977,7 @@
   }
 
   .text-block.loader-text {
-    margin-top: -6vh;
+    margin-top: 5vh;
     font-size: 10.5vw;
   }
 
@@ -3528,14 +3528,22 @@
     margin-top: 5vh;
   }
 
+  .div-block-44 {
+    margin-bottom: 2vh;
+  }
+
   .rotate {
-    margin-top: 30vh;
+    margin-top: 32vh;
   }
 
   .all-loader-lines-mobile {
     width: 80vw;
     height: auto;
-    margin: 6vh 4.75vw 0vh;
+    margin: 5vh 4.75vw 0vh;
+  }
+
+  .div-block-49 {
+    margin-bottom: 5vh;
   }
 
   .div-block-51 {
