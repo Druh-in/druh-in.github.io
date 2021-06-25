@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Jun 25 2021 08:22:53 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri Jun 25 2021 20:37:59 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="60caf307ec82c3f96e286ea8" data-wf-site="60c771a5f20c346840862b2b" lang="en">
 <head>
   <meta charset="utf-8">
@@ -42,10 +42,14 @@
 </style>
 </head>
 <body class="body">
+  <div style="display:none;width:100vw;height:0vh" class="page-transition stamurai">
+    <div style="opacity:0" class="menu-title transition stamurai">Loading<br>Portfolio ‘21</div>
+    <div style="opacity:0" class="menu-title tablet transition stamurai">Loading<br>Portfolio ‘21</div>
+  </div>
   <nav class="menu-bar">
     <div class="title-menu">
-      <a href="index.html" class="link-block-3 w-inline-block">
-        <div class="menu-title">druhin<br>Portfolio ‘21</div>
+      <a id="home-link" data-w-id="1fa2dec7-e4e5-71c2-bfbd-6437d60ab1e1" href="index.html" class="link-block-3 pt w-inline-block">
+        <div class="menu-title pt">druhin<br>Portfolio ‘21</div>
       </a>
     </div>
     <div data-w-id="d496bf71-37cf-f340-4255-cef083405087" class="menu">
@@ -546,7 +550,7 @@
       </div>
       <div class="div-block-31">
         <div class="f-cs">
-          <a data-w-id="5bc60e60-ba3f-aec8-1774-705efaa214e6" href="insanedeals.html" class="overlay-f-cs color w-inline-block">
+          <a id="insanedeals-link" data-w-id="5bc60e60-ba3f-aec8-1774-705efaa214e6" href="insanedeals.html" class="overlay-f-cs color pt w-inline-block">
             <div class="text-block-8">Insane Deals</div>
           </a>
           <link rel="prefetch" href="/insanedeals">
@@ -558,7 +562,7 @@
           <div class="f-cs-details">
             <div class="text-block-7 black testimonial-content">Designed an e-commerce website from scratch named &#x27;InsaneDeals&#x27;. Built an intuitive user experience with a mobile-first mindset, while still keeping the interaction patterns consistent for desktop. Collaborated with the PM and the dev team to ideate, design, and implement new features.</div>
             <div class="hr4 black testimonial"></div>
-            <a href="insanedeals.html" class="testimonial-line w-inline-block">
+            <a id="insanedeals-link2" data-w-id="18cfaa61-835b-99f5-b956-f73b26a1ecd8" href="insanedeals.html" class="testimonial-line pt w-inline-block">
               <div class="project-desc2 fcs-name">InsaneDeals - WebApp Design</div>
               <div class="div-block-28">
                 <div class="project-desc2 view-cs-2 caps">VIEW CASE STUDY</div>
@@ -570,7 +574,7 @@
         </div>
         <div class="div-block-33">
           <div class="f-cs-2">
-            <a href="fathomoptics.html" class="overlay-f-cs color w-inline-block">
+            <a id="fathomoptics-link" data-w-id="4faca602-d572-2ac7-b583-8c00969c9511" href="fathomoptics.html" class="overlay-f-cs color pt w-inline-block">
               <div class="text-block-8">Fathom Optics</div>
             </a>
             <link rel="prefetch" href="/fathomoptics">
@@ -582,7 +586,7 @@
             <div class="f-cs-details">
               <div class="text-block-7 black testimonial-content">Collaborated with 3 multi-disciplinary creatives specializing in creative strategy, branding, and copywriting in a 48 hours rebranding session. We designed various deliverables for &#x27;Fathom Optics&#x27; consisting of the copywriting strategy, brand identity, investor pitch deck, and a whole new redesigned landing page.</div>
               <div class="hr4 black testimonial"></div>
-              <a href="fathomoptics.html" class="testimonial-line w-inline-block">
+              <a id="fathomoptics-link2" data-w-id="4faca602-d572-2ac7-b583-8c00969c9518" href="fathomoptics.html" class="testimonial-line pt w-inline-block">
                 <div class="project-desc2 fcs-name">Fathom Optics - App Design</div>
                 <div class="div-block-28">
                   <div class="project-desc2 view-cs-2 caps">VIEW CASE STUDY</div>
@@ -909,6 +913,15 @@ window.addEventListener("load", function(event) {
       disablewheel: false
     });
   });
+</script>
+  <script>
+$('.pt').click(function(e) {
+    e.preventDefault();
+    var linkUrl = $(this).attr('href');
+    setTimeout(function(url) {
+        window.location = url;
+    }, 1000, linkUrl);
+});
 </script>
 </body>
 </html>
