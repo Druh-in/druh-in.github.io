@@ -2969,6 +2969,10 @@
     letter-spacing: -0.1875vw;
   }
 
+  .menu-title.tablet.transition.stamurai {
+    display: block;
+  }
+
   .menu-title.loader {
     display: none;
   }
