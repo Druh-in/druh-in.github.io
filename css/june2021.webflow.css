@@ -330,6 +330,8 @@
   margin-bottom: 0vh;
   padding-top: 1.9vh;
   padding-bottom: 1.9vh;
+  -webkit-transition: opacity 200ms ease, letter-spacing 200ms ease, text-indent 200ms ease;
+  transition: opacity 200ms ease, letter-spacing 200ms ease, text-indent 200ms ease;
   text-transform: capitalize;
 }
 
