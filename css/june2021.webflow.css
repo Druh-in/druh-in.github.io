@@ -316,6 +316,10 @@
   letter-spacing: -0.054vw;
 }
 
+.text-block-2.black.other-works {
+  text-transform: none;
+}
+
 .text-block-2.black.other-works:hover {
   font-style: normal;
   letter-spacing: -0.054vw;
@@ -326,6 +330,7 @@
   margin-bottom: 0vh;
   padding-top: 1.9vh;
   padding-bottom: 1.9vh;
+  text-transform: capitalize;
 }
 
 .text-block-2.portfolio-heading {
@@ -888,6 +893,13 @@
   text-decoration: none;
 }
 
+.project-line.pt {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
 .project-timeline {
   margin-top: 1.9vh;
   margin-bottom: 1.9vh;
@@ -903,15 +915,15 @@
 }
 
 .div-block-24 {
-  width: 100%;
+  width: 18vw;
 }
 
 .div-block-25 {
-  width: 46.875vw;
+  width: 100%;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
 }
 
 .div-block-26 {
@@ -2426,7 +2438,7 @@
   }
 
   .div-block-25 {
-    width: 42vw;
+    width: 100%;
   }
 
   .div-block-26 {
@@ -3189,8 +3201,12 @@
     letter-spacing: -0.1875vw;
   }
 
+  .div-block-24 {
+    width: 31vw;
+  }
+
   .div-block-25 {
-    width: 33vw;
+    width: 100%;
   }
 
   .div-block-26 {
