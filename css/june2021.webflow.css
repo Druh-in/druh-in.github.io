@@ -2114,6 +2114,7 @@ a {
 
 .scroll-down-cursor {
   position: absolute;
+  display: block;
   width: 5vw;
   height: 5vw;
   margin-top: 0vh;
@@ -2129,6 +2130,7 @@ a {
 
 .view-cs-cursor {
   position: absolute;
+  display: none;
   width: 5vw;
   height: 5vw;
   margin-top: 8vh;
@@ -2251,52 +2253,52 @@ a {
   }
 
   .img-container {
-    width: 18vw;
+    width: 17vw;
     height: 19vh;
   }
 
   .stamurai-cs {
-    width: 18vw;
+    width: 17vw;
     height: 19vh;
   }
 
   .cs-overlay.color {
-    width: 18vw;
+    width: 17vw;
     height: 19vh;
   }
 
   .cs-hover-bg {
-    width: 18vw;
+    width: 17vw;
     height: 19vh;
   }
 
   .cs-hover-video {
-    width: 18vw;
+    width: 17vw;
     height: 19vh;
   }
 
   .insanedeals-cs {
-    width: 18vw;
+    width: 17vw;
     height: 19vh;
   }
 
   .fathom-cs {
-    width: 18vw;
+    width: 17vw;
     height: 19vh;
   }
 
   .mausumi-cs {
-    width: 18vw;
+    width: 17vw;
     height: 19vh;
   }
 
   .buzzoms-cs {
-    width: 18vw;
+    width: 17vw;
     height: 19vh;
   }
 
   .kerala-cs {
-    width: 18vw;
+    width: 17vw;
     height: 19vh;
   }
 
