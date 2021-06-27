@@ -88,7 +88,7 @@ a {
   letter-spacing: 0vw;
   text-decoration: none;
   text-transform: uppercase;
-  cursor: default;
+  cursor: pointer;
 }
 
 .menu-title.tablet {
@@ -101,6 +101,10 @@ a {
 
 .menu-title.transition {
   color: silver;
+}
+
+.menu-title.pt {
+  cursor: pointer;
 }
 
 .link-block-2 {
@@ -1755,6 +1759,11 @@ a {
 
 .link-block-3 {
   text-decoration: none;
+  cursor: pointer;
+}
+
+.link-block-3.pt {
+  cursor: pointer;
 }
 
 .text-block-8 {
