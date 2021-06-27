@@ -564,6 +564,7 @@ a {
 }
 
 .text-block-7.black.testimonial-content {
+  overflow: visible;
   width: 42.825vw;
   margin-top: 0vh;
   font-size: 1vw;
@@ -819,6 +820,7 @@ a {
 }
 
 .project-desc2.cs-body {
+  overflow: visible;
   font-size: 1vw;
   letter-spacing: -0.04vw;
 }
@@ -2121,6 +2123,8 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
 }
 
 .view-cs-cursor {
@@ -2134,6 +2138,8 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
 }
 
 @media screen and (min-width: 1920px) {
