@@ -243,12 +243,15 @@ a {
 
 .text-block {
   display: block;
+  overflow: hidden;
+  padding-bottom: 0px;
   color: #fff;
   font-size: 6.5vw;
   letter-spacing: -0.1625vw;
 }
 
 .text-block.black {
+  padding-bottom: 1.45vh;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -654,6 +657,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -2395,6 +2399,10 @@ a {
     letter-spacing: -0.1875vw;
   }
 
+  .text-block.black {
+    padding-bottom: 1vh;
+  }
+
   .text-block.loader-text {
     margin-top: -15vh;
     -webkit-box-flex: 0;
@@ -3117,6 +3125,10 @@ a {
   .text-block {
     font-size: 10.5vw;
     letter-spacing: -0.2526vw;
+  }
+
+  .text-block.black {
+    padding-bottom: 0.75vh;
   }
 
   .text-block.loader-text {
