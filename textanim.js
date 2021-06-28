@@ -130,6 +130,23 @@ fadeUp7
         delay: (el, i) => 50 * i
     });
 
+var fadeUp8 = anime.timeline({
+    loop: false,
+    autoplay: false,
+});
+
+fadeUp8
+    .add({
+        targets: '.fade-up8 .tricksword',
+        translateY: [100, 0],
+        translateZ: 0,
+        opacity: [0, 1],
+        rotateZ: [10, 0],
+        easing: "easeOutExpo",
+        duration: 1000,
+        delay: (el, i) => 50 * i
+    });
+
 
 
 
@@ -171,3 +188,9 @@ $('#scroll-in7').on('inview', function(event, isInView) {
         fadeUp7.play();
     } else {}
 });
+$('#scroll-in8').on('inview', function(event, isInView) {
+    if (isInView) {
+        fadeUp8.play();
+    } else {}
+});
+
