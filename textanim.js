@@ -210,7 +210,7 @@ const text6 = baffle(".index6");
 
 
 text1.set({
-    characters: '▓▒> █▒/▓█ ▓▓>█▓ ██░ ▓▒░▒█ <▒>▒ ░█▓ ░█▒░ █░░▓',
+    characters: '(*+)',
     speed: 150
 });
 text2.set({
