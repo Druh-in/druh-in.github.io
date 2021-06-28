@@ -39,7 +39,7 @@ fadeUp2
         translateY: [100, 0],
         translateZ: 0,
         opacity: [0, 1],
-        rotateZ: [30, 0],
+        rotateZ: [15, 0],
         easing: "easeOutExpo",
         duration: 1000,
         delay: (el, i) => 50 * i
@@ -56,7 +56,7 @@ fadeUp3
         translateY: [100, 0],
         translateZ: 0,
         opacity: [0, 1],
-        rotateZ: [30, 0],
+        rotateZ: [15, 0],
         easing: "easeOutExpo",
         duration: 1000,
         delay: (el, i) => 50 * i
@@ -73,7 +73,7 @@ fadeUp4
         translateY: [100, 0],
         translateZ: 0,
         opacity: [0, 1],
-        rotateZ: [30, 0],
+        rotateZ: [15, 0],
         easing: "easeOutExpo",
         duration: 1000,
         delay: (el, i) => 50 * i
@@ -90,7 +90,7 @@ fadeUp5
         translateY: [100, 0],
         translateZ: 0,
         opacity: [0, 1],
-        rotateZ: [30, 0],
+        rotateZ: [15, 0],
         easing: "easeOutExpo",
         duration: 1000,
         delay: (el, i) => 50 * i
@@ -107,7 +107,7 @@ fadeUp6
         translateY: [100, 0],
         translateZ: 0,
         opacity: [0, 1],
-        rotateZ: [30, 0],
+        rotateZ: [15, 0],
         easing: "easeOutExpo",
         duration: 1000,
         delay: (el, i) => 50 * i
