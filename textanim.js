@@ -122,7 +122,7 @@ var fadeUp7 = anime.timeline({
 
 
 // Play animation when scrolled into view
-$('#scroll-in').on('inview', function(event, isInView) {
+$('#scroll-in1').on('inview', function(event, isInView) {
     if (isInView) {
         fadeUp.play();
     } else {}
