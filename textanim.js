@@ -271,3 +271,47 @@ $(document).ready(function() {
         text6.reveal(1500);
     });
 });
+
+
+
+$('#index1').on('inview', function(event, isInView) {
+    if (isInView) {
+        text1.start();
+        text1.reveal(1500);
+    } else {}
+});
+
+$('#index2').on('inview', function(event, isInView) {
+    if (isInView) {
+        text2.start();
+        text2.reveal(1500);
+    } else {}
+});
+
+$('#index3').on('inview', function(event, isInView) {
+    if (isInView) {
+        text3.start();
+        text3.reveal(1500);
+    } else {}
+});
+
+$('#index4').on('inview', function(event, isInView) {
+    if (isInView) {
+        text4.start();
+        text4.reveal(1500);
+    } else {}
+});
+
+$('#index5').on('inview', function(event, isInView) {
+    if (isInView) {
+        text5.start();
+        text5.reveal(1500);
+    } else {}
+});
+
+$('#index6').on('inview', function(event, isInView) {
+    if (isInView) {
+        text6.start();
+        text6.reveal(1500);
+    } else {}
+});
