@@ -22,7 +22,7 @@ fadeUp
         translateY: [100, 0],
         translateZ: 0,
         opacity: [0, 1],
-        rotateZ: [15, 0],
+        rotateZ: [10, 0],
         easing: "easeOutExpo",
         duration: 1000,
         delay: (el, i) => 50 * i
@@ -56,7 +56,7 @@ fadeUp3
         translateY: [100, 0],
         translateZ: 0,
         opacity: [0, 1],
-        rotateZ: [15, 0],
+        rotateZ: [10, 0],
         easing: "easeOutExpo",
         duration: 1000,
         delay: (el, i) => 50 * i
@@ -107,7 +107,24 @@ fadeUp6
         translateY: [100, 0],
         translateZ: 0,
         opacity: [0, 1],
-        rotateZ: [15, 0],
+        rotateZ: [10, 0],
+        easing: "easeOutExpo",
+        duration: 1000,
+        delay: (el, i) => 50 * i
+    });
+
+var fadeUp7 = anime.timeline({
+    loop: false,
+    autoplay: false,
+});
+
+fadeUp7
+    .add({
+        targets: '.fade-up7 .tricksword',
+        translateY: [100, 0],
+        translateZ: 0,
+        opacity: [0, 1],
+        rotateZ: [10, 0],
         easing: "easeOutExpo",
         duration: 1000,
         delay: (el, i) => 50 * i
@@ -147,5 +164,10 @@ $('#scroll-in5').on('inview', function(event, isInView) {
 $('#scroll-in6').on('inview', function(event, isInView) {
     if (isInView) {
         fadeUp6.play();
+    } else {}
+});
+$('#scroll-in7').on('inview', function(event, isInView) {
+    if (isInView) {
+        fadeUp7.play();
     } else {}
 });
