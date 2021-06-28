@@ -899,6 +899,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 88.39vw;
   margin-top: 7.5vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -994,13 +995,13 @@ a {
 }
 
 .hr3.black {
-  width: 88.39vw;
+  width: 100%;
   margin-top: 0vh;
   background-color: #131313;
 }
 
 .hr3.black.awards {
-  width: 26vw;
+  width: 100%;
 }
 
 .hr3.black.awards-copy {
@@ -1019,13 +1020,13 @@ a {
 }
 
 .hr4.black {
-  width: 88.39vw;
+  width: 100%;
   margin-top: 2.5vh;
   background-color: #131313;
 }
 
 .hr4.black.awards {
-  width: 26vw;
+  width: 100%;
 }
 
 .hr4.black.testimonial {
@@ -1093,6 +1094,7 @@ a {
 }
 
 .div-block-29 {
+  width: 26vw;
   margin-left: 5.2vw;
 }
 
@@ -2159,6 +2161,10 @@ a {
   transition: background-position 200ms ease, opacity 200ms ease;
 }
 
+.div-block-52 {
+  width: 26vw;
+}
+
 @media screen and (min-width: 1920px) {
   .text-block.black {
     -webkit-box-flex: 0;
@@ -2459,7 +2465,7 @@ a {
   }
 
   .text-block-7.black.testimonial-content {
-    width: 38vw;
+    width: 100%;
     font-size: 1.75vw;
     letter-spacing: -0.07vw;
   }
@@ -2533,6 +2539,10 @@ a {
     font-size: 1.75vw;
   }
 
+  .div-block-22 {
+    width: 81vw;
+  }
+
   .project-line {
     width: 81vw;
   }
@@ -2558,7 +2568,7 @@ a {
   }
 
   .hr3.black {
-    width: 81vw;
+    width: 100%;
   }
 
   .hr3.black.awards {
@@ -2598,7 +2608,7 @@ a {
   }
 
   .hr4.black {
-    width: 81vw;
+    width: 100%;
     margin-top: 0vh;
   }
 
@@ -2618,7 +2628,12 @@ a {
     width: 38vw;
   }
 
+  .awards-div {
+    width: 81vw;
+  }
+
   .div-block-29 {
+    width: 100%;
     margin-left: 5vw;
   }
 
@@ -2637,10 +2652,12 @@ a {
   }
 
   .div-block-30 {
+    width: 38vw;
     margin-left: 5vw;
   }
 
   .testimonial-div-2 {
+    width: 81vw;
     margin-top: 0vh;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -2691,8 +2708,8 @@ a {
   }
 
   .f-cs-2 {
-    width: 38vw;
-    margin-left: 5vw;
+    width: 100%;
+    margin-left: 0vw;
   }
 
   .background-video-3 {
@@ -2754,7 +2771,8 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
+    width: 38vw;
+    margin-left: 5vw;
     padding-right: 0px;
     padding-bottom: 0px;
     -webkit-box-pack: start;
@@ -2764,11 +2782,17 @@ a {
   }
 
   .div-block-34 {
+    width: 38vw;
+    margin-left: 5vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .cs-wrapper {
+    width: 81vw;
   }
 
   .cursor-wrapper {
@@ -3060,6 +3084,14 @@ a {
     -ms-flex-align: start;
     align-items: flex-start;
   }
+
+  .div-block-52 {
+    width: 38vw;
+  }
+
+  .div-block-53 {
+    width: 38vw;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3301,6 +3333,7 @@ a {
   }
 
   .div-block-22 {
+    width: 89.5vw;
     margin-top: 5vh;
   }
 
@@ -3339,7 +3372,7 @@ a {
   }
 
   .hr3.black.awards {
-    width: 89.5vw;
+    width: 100%;
   }
 
   .hr3.black.awards.extra {
@@ -3363,7 +3396,7 @@ a {
   }
 
   .hr4.black.awards {
-    width: 89.5vw;
+    width: 100%;
   }
 
   .hr4.black.testimonial.cs {
@@ -3379,6 +3412,7 @@ a {
   }
 
   .awards-div {
+    width: 89.5vw;
     margin-top: 5vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3412,10 +3446,12 @@ a {
   }
 
   .div-block-30 {
+    width: 100%;
     margin-left: 0vw;
   }
 
   .testimonial-div-2 {
+    width: 89.5vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3515,6 +3551,16 @@ a {
     margin-left: 0vw;
   }
 
+  .div-block-33 {
+    width: 100%;
+    margin-left: 0vw;
+  }
+
+  .div-block-34 {
+    width: 89.5vw;
+    margin-left: 0vw;
+  }
+
   .text-span {
     display: none;
   }
@@ -3529,6 +3575,10 @@ a {
 
   .text-span-4 {
     display: none;
+  }
+
+  .cs-wrapper {
+    width: 89.5vw;
   }
 
   .cursor-wrapper {
@@ -3730,6 +3780,14 @@ a {
   .page-transition {
     padding-right: 5.25vw;
     padding-left: 5.25vw;
+  }
+
+  .div-block-52 {
+    width: 100%;
+  }
+
+  .div-block-53 {
+    width: 100%;
   }
 }
 
