@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sun Jun 27 2021 21:12:20 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Jun 28 2021 06:24:27 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="60c771a5f20c34a645862b2c" data-wf-site="60c771a5f20c346840862b2b" lang="en">
 <head>
   <meta charset="utf-8">
@@ -40,6 +40,18 @@
   a{
   	-webkit-tap-highlight-color: rgb(222,222,222,0.00);
   }
+</style>
+  <style>
+.tricksword {display: inline-block;} 
+.tricksword {white-space: nowrap;}
+.fade-up .tricksword {opacity: 0;}
+.fade-up2 .tricksword {opacity: 0;}
+.fade-up3 .tricksword {opacity: 0;}
+.fade-up4 .tricksword {opacity: 0;}
+.fade-up5 .tricksword {opacity: 0;}
+.fade-up6 .tricksword {opacity: 0;}
+.fade-up7 .tricksword {opacity: 0;}
+.fade-up8 .tricksword {opacity: 0;}
 </style>
 </head>
 <body class="body">
@@ -238,7 +250,7 @@ setInterval(function(){
         <div class="div-block-3">
           <div class="div-block-5">
             <div class="text-block-2 portfolio-heading mobile">Portfolio ‘21</div>
-            <div class="text-block">Druhin Tarafder</div>
+            <div id="scroll-in1" class="text-block fade-up tricks">Druhin Tarafder</div>
           </div>
           <div class="div-block-4">
             <div class="text-block-2 portfolio-heading">Portfolio ‘21</div>
@@ -271,7 +283,7 @@ setInterval(function(){
   <div class="smooth-scroll-wrapper">
     <div id="works" class="projects">
       <div class="div-block-17">
-        <div class="text-block black">Projects</div>
+        <div id="scroll-in2" class="text-block black fade-up2 tricks">Projects</div>
         <div class="div-block-18">
           <div class="text-block-2 black section-index">(*12 +)</div>
         </div>
@@ -413,7 +425,7 @@ setInterval(function(){
     </div>
     <div id="featured-case-studies" class="featured-cs">
       <div class="div-block-17">
-        <div class="text-block black">Featured<br>Case Studies</div>
+        <div id="scroll-in3" class="text-block black fade-up3 tricks"><span id="scroll-in8" class="fade-up8 tricks">Featured</span><br>Case Studies</div>
         <div class="div-block-18">
           <div class="text-block-2 black section-index">(*2 +)</div>
         </div>
@@ -493,7 +505,7 @@ setInterval(function(){
     </div>
     <div id="awards" class="awards-recognitions">
       <div class="div-block-17">
-        <div class="text-block black">Awards &amp;<br>Recognitions</div>
+        <div id="scroll-in4" class="text-block black fade-up4 tricks"><span id="scroll-in7" class="fade-up7 tricks">Awards &amp;</span><br>Recognitions</div>
         <div class="div-block-18">
           <div class="text-block-2 black section-index">(*20 +)</div>
         </div>
@@ -605,7 +617,7 @@ setInterval(function(){
     </div>
     <div id="testimonials" class="testimonials">
       <div class="div-block-17">
-        <div class="text-block black">Testimonials</div>
+        <div id="scroll-in5" class="text-block black fade-up5 tricks">Testimonials</div>
         <div class="div-block-18">
           <div class="text-block-2 black section-index">(*5 +)</div>
         </div>
@@ -651,7 +663,7 @@ setInterval(function(){
     </div>
     <div id="contact" class="contact">
       <div class="div-block-17">
-        <div class="text-block black">Contact</div>
+        <div id="scroll-in6" class="text-block black fade-up6 tricks">Contact</div>
         <div class="div-block-18">
           <div class="text-block-2 black section-index">(*7 +)</div>
         </div>
@@ -938,5 +950,10 @@ $('.pt').click(function(e) {
     }, 1000, linkUrl);
 });
 </script>
+  <!--  anime.js and jquery-inview  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+  <!--  text animation  -->
+  <script src="https://druh-in.github.io/textanim.js"></script>
 </body>
 </html>

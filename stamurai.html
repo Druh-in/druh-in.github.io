@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sun Jun 27 2021 21:12:20 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Jun 28 2021 06:24:27 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="60caf307ec82c3f96e286ea8" data-wf-site="60c771a5f20c346840862b2b" lang="en">
 <head>
   <meta charset="utf-8">
@@ -40,6 +40,16 @@
   	-webkit-tap-highlight-color: rgb(222,222,222,0.00);
   }
 </style>
+  <style>
+.tricksword {display: inline-block;} 
+.tricksword {white-space: nowrap;}
+.fade-up .tricksword {opacity: 0;}
+.fade-up2 .tricksword {opacity: 0;}
+.fade-up3 .tricksword {opacity: 0;}
+.fade-up4 .tricksword {opacity: 0;}
+.fade-up5 .tricksword {opacity: 0;}
+.fade-up6 .tricksword {opacity: 0;}
+</style>
 </head>
 <body class="body">
   <div data-w-id="be409e10-7f29-5df3-b98e-341da6eb7e09" style="-webkit-transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);display:none" class="page-transition stamurai">
@@ -78,7 +88,7 @@
         <div class="div-block-3">
           <div class="div-block-5">
             <div class="text-block-2 portfolio-heading mobile">apr - jul ‘20</div>
-            <div class="text-block">Stamurai</div>
+            <div id="scroll-in1" class="text-block fade-up tricks">Stamurai</div>
           </div>
           <div class="div-block-4">
             <div class="text-block-2 portfolio-heading">apr - jul ‘20</div>
@@ -111,7 +121,7 @@
   <div class="smooth-scroll-wrapper">
     <div id="details" class="cs-page">
       <div class="div-block-17">
-        <div class="text-block black">Case Study</div>
+        <div id="scroll-in2" class="text-block black fade-up2 tricks">Case Study</div>
         <div class="div-block-18">
           <div class="text-block-2 black section-index">(*13 +)</div>
         </div>
@@ -529,7 +539,7 @@
     </div>
     <div id="featured-case-studies" class="next-cs">
       <div class="div-block-17">
-        <div class="text-block black">Next<br>Case Studies</div>
+        <div id="scroll-in3" class="text-block black fade-up3 tricks"><span id="scroll-in5" class="fade-up5 tricks">Next</span><br>Case Studies</div>
         <div class="div-block-18">
           <div class="text-block-2 black section-index">(*2 +)</div>
         </div>
@@ -609,7 +619,7 @@
     </div>
     <div id="contact" class="contact stamurai">
       <div class="div-block-17">
-        <div class="text-block black">Contact</div>
+        <div id="scroll-in4" class="text-block black fade-up4 tricks">Contact</div>
         <div class="div-block-18">
           <div class="text-block-2 black section-index">(*7 +)</div>
         </div>
@@ -923,5 +933,10 @@ $('.pt').click(function(e) {
     }, 1000, linkUrl);
 });
 </script>
+  <!--  anime.js and jquery-inview  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+  <!--  text animation  -->
+  <script src="https://druh-in.github.io/textanim.js"></script>
 </body>
 </html>
