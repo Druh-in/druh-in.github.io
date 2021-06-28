@@ -214,23 +214,23 @@ text1.set({
     speed: 150
 });
 text2.set({
-    characters: '▓▒> █▒/▓█ ▓▓>█▓ ██░ ▓▒░▒█ <▒>▒ ░█▓ ░█▒░ █░░▓',
+    characters: '(*+)',
     speed: 150
 });
 text3.set({
-    characters: '▓▒> █▒/▓█ ▓▓>█▓ ██░ ▓▒░▒█ <▒>▒ ░█▓ ░█▒░ █░░▓',
+    characters: '(*+)',
     speed: 150
 });
 text4.set({
-    characters: '▓▒> █▒/▓█ ▓▓>█▓ ██░ ▓▒░▒█ <▒>▒ ░█▓ ░█▒░ █░░▓',
+    characters: '(*+)',
     speed: 150
 });
 text5.set({
-    characters: '▓▒> █▒/▓█ ▓▓>█▓ ██░ ▓▒░▒█ <▒>▒ ░█▓ ░█▒░ █░░▓',
+    characters: '(*+)',
     speed: 150
 });
 text6.set({
-    characters: '▓▒> █▒/▓█ ▓▓>█▓ ██░ ▓▒░▒█ <▒>▒ ░█▓ ░█▒░ █░░▓',
+    characters: '(*+)',
     speed: 150
 });
 
