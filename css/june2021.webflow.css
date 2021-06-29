@@ -185,7 +185,7 @@ a {
 }
 
 .menu-bar {
-  position: absolute;
+  position: fixed;
   left: 0%;
   top: 0%;
   right: 0%;
@@ -2960,7 +2960,7 @@ a {
   }
 
   .third-line {
-    overflow: hidden;
+    overflow: visible;
     width: 20vw;
     height: 100%;
     margin-right: 10vw;
