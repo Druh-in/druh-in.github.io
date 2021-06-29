@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Jun 28 2021 20:34:46 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Jun 29 2021 07:04:43 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="60c771a5f20c34a645862b2c" data-wf-site="60c771a5f20c346840862b2b" lang="en">
 <head>
   <meta charset="utf-8">
@@ -58,6 +58,30 @@
 </style>
 </head>
 <body class="body">
+  <nav data-w-id="30b574ce-d3c0-3e16-c1ce-8377dac9a221" style="-webkit-transform:translate3d(0, -2.5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -2.5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -2.5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -2.5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="menu-bar">
+    <div class="title-menu">
+      <div class="menu-title">druhin<br>Portfolio ‘21</div>
+    </div>
+    <div data-w-id="6e4dd035-4638-26c0-1d35-16678c52afed" class="menu">
+      <a href="#works" class="link-block-2 w-inline-block">
+        <div id="work-link" class="menu-item data1">Works</div>
+      </a>
+      <a href="#contact" class="link-block-2 w-inline-block">
+        <div id="contact-link" class="menu-item data2">contact</div>
+      </a>
+    </div>
+    <div class="w-embed">
+      <style>
+/*adding blend mode to the menu*/
+	.menu-bar {
+		mix-blend-mode: difference;
+	}
+  .menu-item {
+		mix-blend-mode: difference;
+	}
+</style>
+    </div>
+  </nav>
   <div data-w-id="0e3f2bbb-0615-d423-ab2e-4b146b663d2b" class="page-transition-load">
     <div class="all-loader-lines">
       <div class="first-line">
@@ -153,30 +177,6 @@ setInterval(function(){
     <div style="opacity:0" class="menu-title transition">Loading<br>Portfolio ‘21</div>
     <div style="opacity:0" class="menu-title tablet transition">Loading<br>Portfolio ‘21</div>
   </div>
-  <nav data-w-id="30b574ce-d3c0-3e16-c1ce-8377dac9a221" style="-webkit-transform:translate3d(0, -2.5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -2.5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -2.5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -2.5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="menu-bar">
-    <div class="title-menu">
-      <div class="menu-title">druhin<br>Portfolio ‘21</div>
-    </div>
-    <div data-w-id="6e4dd035-4638-26c0-1d35-16678c52afed" class="menu">
-      <a href="#works" class="link-block-2 w-inline-block">
-        <div id="work-link" class="menu-item data1">Works</div>
-      </a>
-      <a href="#contact" class="link-block-2 w-inline-block">
-        <div id="contact-link" class="menu-item data2">contact</div>
-      </a>
-    </div>
-    <div class="w-embed">
-      <style>
-/*adding blend mode to the menu*/
-	.menu-bar {
-		mix-blend-mode: difference;
-	}
-  .menu-item {
-		mix-blend-mode: difference;
-	}
-</style>
-    </div>
-  </nav>
   <div id="curs" class="cursor-wrapper">
     <div class="w-embed">
       <style>
@@ -666,7 +666,7 @@ setInterval(function(){
         </div>
       </div>
     </div>
-    <div id="contact" class="contact">
+    <div id="contact-sec" class="contact">
       <div data-w-id="f353e1de-2dbb-4c9b-6297-12420d766bc3" style="opacity:0" class="div-block-17">
         <div id="scroll-in6" class="text-block black fade-up6 tricks">Contact</div>
         <div class="div-block-18">
@@ -816,7 +816,7 @@ setInterval(function(){
           </div>
         </div>
       </div>
-      <div data-w-id="74da0652-a10f-3dba-9d2d-fff81963cfa2" class="footer">
+      <div id="contact" data-w-id="74da0652-a10f-3dba-9d2d-fff81963cfa2" class="footer">
         <div class="project-desc end copyright">druh.in © 2021</div>
         <div class="project-desc end">Portfolio ‘21</div>
       </div>
@@ -984,6 +984,11 @@ $(document).mouseleave(function () {
 $(document).mouseenter(function () {
     document.getElementById("curs").style.opacity = "1";
 });
+</script>
+  <script>
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
 </script>
 </body>
 </html>
