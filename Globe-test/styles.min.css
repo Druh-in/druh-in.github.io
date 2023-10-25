@@ -1,0 +1,104 @@
+.canvas-3dglobe-container {
+  width: 100%;
+  /* let our container decide our size */
+  height: 100%;
+  display: block;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  /* mobile webkit */
+}
+
+.fs-3dglobe-container {
+  position: relative;
+  /* makes this the origin of its children */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* background-color: ; */
+}
+
+.fs-3dglobe-labels {
+  position: absolute;
+  /* let us position ourself inside the container */
+  z-index: 0;
+  /* make a new stacking context so children don't sort with rest of page */
+  left: 0;
+  /* make our position the top left of the container */
+  top: 0;
+  color: white;
+}
+
+.fs-3dglobe-labels>div {
+  position: absolute;
+  /* let us position them inside the container */
+  left: 0;
+  /* make their default position the top left of the container */
+  top: 0;
+  cursor: pointer;
+  /* change the cursor to a hand when over us */
+  font-size: small;
+  user-select: none;
+  /* don't let the text get selected */
+  /* pointer-events: none;   make us invisible to the pointer */
+  /* text-shadow:         create a black outline */
+  /* -1px -1px 0 #000,
+         0   -1px 0 #000,
+         1px -1px 0 #000,
+         1px  0   0 #000,
+         1px  1px 0 #000,
+         0    1px 0 #000,
+         -1px  1px 0 #000,
+         -1px  0   0 #000; */
+}
+
+/* #labels>div:hover {
+         color: red;
+         }
+         */
+.fs-3dglobe-arrow-box {
+  margin-top: -118%;
+}
+
+div.fs-3dglobe-arrow_box {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: solid 5px #fff;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.fs-3dglobe-arrow_box:after {
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: #fff;
+  border-width: 15px;
+  z-index: 10;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+}
+
+.fs-3dglobe-info-box {
+  display: none;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.fs-3dglobe-labels>div:hover .fs-3dglobe-info-box {
+  display: block;
+  cursor: pointer;
+}
+
+.finsweet-globe {
+  height: 100%;
+  width: 100%;
+}
